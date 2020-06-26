@@ -1,0 +1,160 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+:root{
+	--verde:#0f9e5c;
+	--fondo-panel:#4b4f58;
+	--icon-menu:#fff;
+	--text-menu:#fff;
+	--bg-menu:#4d545c;
+	--f7-list-border-color: none;
+	--azul: #0068ff;
+	--gris: #b0b6c2;
+	--carbon: #b3bc40;
+}
+.panel-left{
+	background-color: var(--azul);
+	color: #fff;
+}
+.letra-verde{
+	color: var(--verde);
+}
+.letra-blanco{
+	color:#fff;
+}
+.list-menu .item-media span{
+	color: var(--icon-menu);
+}
+.list-menu .item-inner{
+	color: var(--text-menu);
+}
+.list-menu{
+	background-color: var(--azul)!important;
+	font-size:14px;
+}
+.list-menu .item-inner::before{
+	color: rgba(255,255,255,0.50) !important;
+}
+.list-menu .item-inner::after{
+	background-color: transparent !important;
+}
+h1,h2,h3,h4{
+	margin: 2px 0;
+}
+.saludo{
+	color: var(--azul);
+}
+.saludo h2{
+	font-size: 24px;
+}
+.saludo h3{
+	font-weight: 500;
+}
+.block-title{
+	color: #000;
+	font-weight: 600;
+}
+.img-fluid{
+	max-width: 100%;
+}
+.card-food .card-header{
+	padding: 0;
+}
+.card-food .card-header img{
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.card-food .card-content{
+	background-color: var(--azul);
+	color: #fff;
+	padding: 10px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	font-size: 16px;
+}
+.card-food .card-content article:last-child{
+	justify-content:flex-end;
+	display:flex;
+	font-size:13px;
+}
+.card-food .card-content i{
+	font-size:20px;
+}
+.categorias .card{
+	background-color: var(--azul);
+	color: #fff;
+	padding: 5px 10px;
+}
+.categorias .card-content img{
+	width: 40px;
+}
+.derecha{
+	text-align: right;
+}
+.categorias h3{
+	margin-top: -20%;
+}
+.img-perfil{
+	border-radius:100%;
+}
+.bg-azul{
+	background-color: var(--azul);
+	color: #fff;
+	padding: 45px 0;
+}
+.bg-azul .block{
+	margin-top:0;
+}
+.perfil-contador .card-content{
+	padding:30px;
+	text-align: center;
+}
+.perfil-contador .card{
+	margin-top: -25%;
+	box-shadow:0px 0px 10px 0px #ccc;
+}
+.perfil-contador h4{
+	font-size:24px;
+}
+.list-perfil .item-header{
+	color:#666;
+}
+.list-perfil .item-title{
+	color:#000;
+	font-weight: 500;
+}
+.bg-carnes{
+	background-image: url("../img/bg-meat.jpg");
+	background-size: cover;
+	background-position: top center;
+	padding:20% 0 1%;
+}
+.bg-carnes h2{
+	color:#fff;
+	text-align: center;
+	font-size:26px;
+}
+.bg-carnes .block{
+	margin-top:0;
+}
+.lista-productos .item-media img{
+	width: 80px;
+}
+.info-producto .popup-close{
+	position: absolute;
+	top:10px;
+	right:10px;
+	color:#aaa;
+}
+.info-prodcuto .titulo{
+	font-size:22px;
+}
+.info-producto .info{
+	color:#aaa;
+}
+.info-producto .precio{
+	color: var(--azul);
+	font-size:16px;
+}
+#login .page-content,#login .page{
+	background-color:#eee !important;
+}

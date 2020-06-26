@@ -1,0 +1,318 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Framework7</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="css/framework7.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<div id="app">
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        <!-- Initial Page, "data-name" contains page name -->
+		<section class="panel panel-left panel-cover">
+			<div class="block">
+				<div class="row">
+					<article class="col-20">
+						<img src="img/4425f42e-64b3-41a0-a1de-f3b607beb31b.jpeg" class="img-fluid img-perfil">
+					</article>
+					<article class="col-80">
+						<b>Isaac Ochoa</b><br>
+						<span class="letra-blanco">jochoabaca@gmail.com</span>
+					</article>
+				</div>
+			</div> 
+			<div class="list">
+				<ul class="list-menu">
+					<li>
+						<a href="/perfil/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<span class="material-icons">account_circle</span>
+						</div>
+						<div class="item-inner">
+							Profile
+						</div>
+						</a>
+					</li>
+					<li>
+						<a href="/about/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<span class="material-icons">search</span>
+						</div>
+						<div class="item-inner">
+							Search
+						</div>
+						</a>
+					</li>
+					<li>
+						<a href="/perfil/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<span class="material-icons">list</span>
+						</div>
+						<div class="item-inner">
+							Categories
+						</div>
+						</a>
+					</li>
+					<li>
+						<a href="/about/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<span class="material-icons">local_offer</span>
+						</div>
+						<div class="item-inner">
+							Discounts
+						</div>
+						</a>
+					</li>
+					<li>
+						<a href="/about/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<span class="material-icons">payment</span>
+						</div>
+						<div class="item-inner">
+							Payments
+						</div>
+						</a>
+					</li>
+					<li>
+						<a href="/about/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<span class="material-icons">shopping_bag</span>
+						</div>
+						<div class="item-inner">
+							Orders
+						</div>
+						</a>
+					</li>
+					<li>
+						<a href="/about/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<span class="material-icons">settings</span>
+						</div>
+						<div class="item-inner">
+							Settings
+						</div>
+						</a>
+					</li>
+					<li>
+						<a href="/about/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<span class="material-icons">support</span>
+						</div>
+						<div class="item-inner">
+							Support
+						</div>
+						</a>
+					</li>
+					<li>
+						<a href="/about/" class="item-link item-content panel-close">
+						<div class="item-media">
+							<span class="material-icons">exit_to_app</span>
+						</div>
+						<div class="item-inner">
+						     Exit
+						</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+        <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-bg"></div>
+            <div class="navbar-inner">
+				<div class="left">
+					<a href="#" class="link panel-open" data-panel="left"><span class="material-icons">menu</span></a>
+				</div>
+              <div class="title">Food Delivery</div>
+            </div>
+          </nav>
+
+
+          <!-- Scrollable page content -->
+          <article class="page-content">
+			  <div class="block saludo">
+			  	<h2>Hola Isaac,</h2>
+				  <h3>¿Qué te gustaría comer hoy?</h3>
+			  </div>
+			  <h2 class="block-title">Comidas Favoritas</h2>
+			  <div class="block">
+				  <div class="swiper-container swiper-init">
+				  <div class="swiper-wrapper">
+				    <div class="swiper-slide">
+						<article class="card card-food">
+					<div class="card-header">
+						<img src="img/bg-sushi.jpg" class="img-fluid" alt="">
+					</div>  
+					<div class="card-content">
+						<div class="row">
+							<article class="col">
+								Sushi
+							</article>
+							<article class="col text-align-right">
+								<i class="material-icons">favorite</i>23
+							</article>
+						</div>
+					</div>
+				</article>
+					  </div>
+					  <div class="swiper-slide">
+						<article class="card card-food">
+							<a href="/carnes/">
+					<div class="card-header">
+						<img src="img/bg-meat.jpg" class="img-fluid" alt="">
+					</div>  
+					<div class="card-content">
+						<div class="row">
+							<article class="col">
+								Steaks
+							</article>
+							<article class="col text-align-right">
+								<i class="material-icons">favorite</i>
+								23
+								</a>
+							</article>
+						</div>
+					</div>
+				</article>
+					  </div>
+					</div>
+				  </div>
+			  	
+			  </div>
+			  <!--Block comidas favoritas -->
+			  <div class="block-title">Categorias</div>
+			  <div class="block categorias">
+			     <div class="row">
+				   <article class="col-50">
+					 <div class="card">
+						 <div class="card-content">
+							 <div class="derecha">
+						  <img src="img/icon-fish.png" class="img-fluid">
+							 </div>
+							 <h3>Sea Food</h3>
+							 20 Orders		 
+						 </div>	  
+					   </div>
+					 
+					 
+					 
+					 </article>
+					 <article class="col-50">
+						 <a href="/carnes/">
+						<div class="card">
+							<div class="card-content">
+								 <div class="derecha">
+								<img src="img/icon-meat.png" class="img-fluid">
+								</div>
+								<h3>Steaks</h3>
+								40 Orders
+							</div>
+						</div>
+						 </a>
+					</article>
+					 
+				  </div>
+				  <div class="row">
+				   <article class="col-50">
+					 <div class="card">
+						 <div class="card-content">
+							 <div class="derecha">
+						  <img src="img/icon-coffee-cup.png" class="img-fluid">
+							 </div>
+							 <h3>Coffee</h3>
+							 20 Orders		 
+						 </div>			   
+					   </div>
+					 
+					 
+					 
+					 </article>
+					 <article class="col-50">
+						<div class="card">
+							<div class="card-content">
+								 <div class="derecha">
+								<img src="img/icon-food.png" class="img-fluid">
+								</div>
+								<h3>Fast Food</h3>
+								40 Orders
+							</div>
+						</div>
+					</article>				  
+			  </div>
+			  </div>
+          </article>
+        </section>
+		  <div class="toolbar tabbar toolbar-bottom">
+			<div class="toolbar-inner">
+			  <a href="/home/" class="link"><span class="material-icons">home</span></a>
+			  <a href="#" class="link"><span class="material-icons">local_mall</span></a>
+			  <a href="#" class="link"><span class="material-icons">shopping_basket</span></a>
+			  <a href="/perfil/" class="link"><span class="material-icons">person</span></a>
+			</div>
+	  	</div>
+		  <section id="login">
+		  <div class="login-screen modal-in">
+  <!-- Default view-page layout -->
+  <div class="view">
+    <div class="page login-screen-page">
+      <!-- page-content has additional login-screen content -->
+      <div class="page-content login-screen-content">
+        <div class="login-screen-title">Delivery App</div>
+        <!-- Login form -->
+        <form>
+          <div class="list">
+            <ul>
+              <li class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">Username</div>
+                  <div class="item-input-wrap">
+                    <input type="text" name="username" id="username" placeholder="Username">
+                    <span class="input-clear-button"></span>
+                  </div>
+                </div>
+              </li>
+              <li class="item-content item-input">
+                <div class="item-inner">
+                  <div class="item-title item-label">Password</div>
+                  <div class="item-input-wrap">
+                    <input type="password" name="password" id="password" placeholder="Password">
+                    <span class="input-clear-button"></span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="list block">
+            <ul>
+              <li>
+                <a href="#" id="btnLogin" class="button-fill button-round-ios button">Sign In</a>
+              </li>
+				<li>
+				<a href="#" class="button login-screen-close">Log In as a Guest</a>
+				</li>
+            </ul>
+            <div class="block-footer">Dont have an account? <a href="#">Create Account</a></div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+		  </section>
+      </div>
+    </div>
+	<script src="js/framework7.min.js"></script>
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/my-app.js"></script>
+</body>
+</html>
